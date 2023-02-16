@@ -1,2 +1,61 @@
-/**/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(45deg,#003853, #4d9dc0)
+}
+
+.div-login {
+  text-align: center;
+  background-color: #00446a;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 80px;
+  border-radius: 20px;
+  color: #ffff;
+  box-shadow: 10px 10px 10px #003853;
+  text-align: center;
+}
+
+.input1 {
+  font-size: 20px;
+  padding: 20px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+.button1 {
+  background-color: #1a769f;
+  border: none;
+  padding: 15px;
+  width: 25%;
+  border-radius: 20px;
+  color: #ffff;
+  margin: 0 25px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #2386b0;
+}
+
+.esq {
+  background-color: #1a769f;
+  border: none;
+  padding: 15px;
+  width: 50%;
+  border-radius: 20px;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.esq:hover {
+  background-color: #38acdd;
+}
+.esqueci{
+  cursor: pointer;
+  color: #ffff;
+ 
+}
 
